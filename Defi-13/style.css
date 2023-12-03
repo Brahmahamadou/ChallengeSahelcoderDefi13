@@ -1,0 +1,137 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.container{
+    width: 900px;
+    height: 900px;
+    border-radius: 10px;
+    display: flex;
+    background: linear-gradient(rgb(90, 90, 224), #08a9bb);
+}
+.partie1{
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 900px;
+}
+.partie2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 430px;
+    height: 790px;
+    background-color: rgb(244, 243, 234);
+    border-top-right-radius: 40%;
+    margin-top: 10px;
+}
+.ligne1{
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.ligne1 p{
+    margin-top: -1rem;
+}
+.ligne{
+    margin-top: 12rem;
+}
+.coleur{
+    color: rgb(230, 205, 174);
+    margin-left: 1rem;
+}
+.contenu{
+    margin-left: 2rem;
+    color: bisque;
+}
+img{
+    width: 400px;
+    margin-left: 1.5rem;
+    margin-top: -4rem;
+}
+.contenu2{
+    border: 8px solid;
+    width: 250px;
+    height: 560px;
+    margin-right: 178px;
+    border-left: none; 
+    position: relative;
+    border-color:#08a9bb;
+}
+h5{
+    font-size: 1.5rem;
+}
+input{
+    position: relative;
+    transform: translate(10%, -50%);
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:#08a9bb;
+}
+.login .text{
+    display: flex;
+    justify-content: space-around;
+}
+.text p{
+    margin-top: -1rem;
+}
+#tex{
+    margin-right: 5rem;
+    opacity: 0.5;
+}
+#lien{
+    margin-right: -11rem;
+    color: rgb(10, 10, 196);
+}
+.research{
+    margin-left: 40px;
+}
+.motdepass p{
+justify-content: right;
+display: flex;
+margin-right: -9rem;
+margin-top: -1rem;
+color: rgb(113, 113, 236);
+}
+#buton{
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #08a9bb;
+}
+#pass{
+    
+}
+.password #eyes{
+    position: relative;
+    left: 145%;
+    top: 4.4rem;
+    z-index: 4;
+}
+#point{
+    position: relative;
+    left: 40%;
+    top: 4.7rem;
+    z-index: 4;
+    font-size: 2rem;
+}
+#point1{
+    position: relative;
+    left: 23%;
+    top: 4.7rem;
+    z-index: 4;
+    font-size: 2rem;
+}
+#point2{
+    position: relative;
+    left: 43%;
+    top: 4.7rem;
+    z-index: 4;
+    font-size: 2rem;
+}
+#mail{
+    text-align: center;
+}
